@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* NAVIGATION STYLE */
+.nav-container{
+    background-color: rgb(47, 47, 187);
+}
+
+.nav-items{
+    list-style: none;
+    text-align: center;
+    padding: 12px;
+}
+
+.nav-list{
+    display: inline-block;
+    margin-left: 12px;
+    padding: 8px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: inherit;
+}
+
+.nav-list a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* HEADER STYLE */
+.header-img{
+    width: 100%;
+    height: 90vh;
+    padding: 20px;
+}
+
+.header-heading{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-caption{
+    text-align: center;
+    font-size: 1.9em;
+    padding: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bring-joy-btn{
+    padding: 12px;
+    background-color: #c2a6a685;
+    color: rgb(47, 47, 187);
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 550px;
+    margin-top: 12px;
+}
+
+.send-fund-btn{
+    padding: 12px;
+    background-color: rgb(47, 47, 187);
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 20px;
+}
+
+.other-img{
+    width: 100%;
+    padding: 20px;
+}
+
+.other-caption{
+    text-align: center;
+    font-size: 1.9em;
+    padding: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+
+/* GALLERY STYLE */
+.gallery{
+    display: flex;
+}
+
+.gallery-img{
+    width: 30%;
+    margin: 8px;
+}
+
+/* FOOTER STYLE */
+.footer{
+    background-color: rgb(47, 47, 187);
+    padding: 12px;
+}
+
+.footer-caption{
+    text-align: center;
+    color: #fff;
+}
+
+.copyright{
+    text-align: center;
+    color: #fff;
+}
